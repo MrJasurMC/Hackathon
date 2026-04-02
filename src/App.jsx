@@ -3,7 +3,6 @@ import Header from "./components/Header/Header.jsx"
 import Sidebar from "./components/Sidebar/Sidebar.jsx"
 import Transactions from "./pages/Transactions/Transactions.jsx"
 import Financial from "./pages/Financial/Financial.jsx"
-import Transactions from "./pages/Transactions/Transactions.jsx"
 import Users from "./pages/Users/Users.jsx"
 import { Route, Routes } from 'react-router-dom'
 
