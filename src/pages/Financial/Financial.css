@@ -90,6 +90,15 @@ margin-right: 12px;
     background-color: #FFFFFF;
     border-radius: 12px;
     padding: 32px;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.real-chart{
+    display: flex;
+    gap: 8px;
+    align-items: end;
 }
 .recent-side{
     width: 298px;
@@ -127,4 +136,82 @@ margin-right: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #B61722;
+}
+.months{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.top-jan{
+    width: 85px;
+    height: 102px;
+    background-color: #006E2F33;
+}
+.middle-jan{
+    width: 85px;
+    height: 52px;
+    background-color: #B6172233;
+}
+.months p{
+    color: #3D4A3D;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-feb{
+    width: 85px;
+    height: 140px;
+    background-color: #006E2F33;
+}
+.middle-feb{
+    width: 85px;
+    height: 64px;
+    background-color: #B6172233;
+}
+.top-mar{
+    width: 85px;
+    height: 146px;
+    background-color: #006E2F66;
+    border-top: 2px solid #006E2F;
+}
+.middle-mar{
+    width: 85px;
+    height: 79px;
+    background-color: #006E2F66;
+    border-top: 2px solid #006E2F;
+}
+.top-apr{
+    width: 85px;
+    height: 150px;
+    background-color: #006E2F33;
+}
+.middle-apr{
+    width: 85px;
+    height: 75px;
+    background-color: #006E2F33;
+}
+.top-may{
+    width: 85px;
+    height: 147px;
+    background-color: #006E2F33;
+}
+.middle-may{
+    width: 85px;
+    height: 78px;
+    background-color: #006E2F33;
+}
+.top-jun{
+    width: 85px;
+    height: 144px;
+    background-color: #B61722CC;
+    border: 2px solid #006E2F;
+}
+.middle-jun{
+    width: 85px;
+    height: 80px;
+    background-color: #B61722CC;
+    border: 2px solid #006E2F;
 }
