@@ -1,7 +1,9 @@
 import './App.css'
 import Header from "./components/Header/Header.jsx"
 import Sidebar from "./components/Sidebar/Sidebar.jsx"
-import Home from "./pages/Home/Home.jsx"
+import Financial from "./pages/Financial/Financial.jsx"
+import Transactions from "./pages/Transactions/Transactions.jsx"
+import Users from "./pages/Users/Users.jsx"
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <main>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Financial />} />
+          <Route path='/' element={<Transactions />} />
+          <Route path='/' element={<Users />} />
         </Routes>
       </main>
     </section>

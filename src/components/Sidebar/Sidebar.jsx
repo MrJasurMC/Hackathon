@@ -19,16 +19,16 @@ function Sidebar() {
             </div>
             <div className="sidebar-main">
                 <div className="sidebar-links">
-                    <LuLayoutDashboard />
-                    <h3>Dashboard</h3>
+                    <LuLayoutDashboard className='sidebar-link'/>
+                    <h3 className='sidebar-link'>Dashboard</h3>
                 </div>
                 <div className="sidebar-links">
-                    <RiNewspaperLine />
-                    <h3>Transactions</h3>
+                    <RiNewspaperLine className='sidebar-link'/>
+                    <h3 className='sidebar-link'>Transactions</h3>
                 </div>
                 <div className="sidebar-links">
-                    <PiUsersFill />
-                    <h3>User List</h3>
+                    <PiUsersFill className='sidebar-link'/>
+                    <h3 className='sidebar-link'>User List</h3>
                 </div>
             </div>
         </section>
