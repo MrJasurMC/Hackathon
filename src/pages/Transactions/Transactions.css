@@ -1,0 +1,70 @@
+.header-three-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.box {
+    padding: 0px 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 298.6667px;
+    height: 172px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 32px;
+    gap: 10px;
+    transition: 0.5s ease;
+}
+
+
+.net-flow {
+    font-family: 'Inter' sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #3D4A3D;
+}
+
+.last {
+    color: #006E2F;
+}
+
+.nine {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.box:hover {
+    background: #006E2F;
+    color: #ffff !important;
+}
+
+.lasts {
+    color: #B61722;
+}
+
+.pro {
+    width: 69.5px;
+    height: 24px;
+    border-radius: 9999px;
+    border: none;
+    background: #FFFFFF33;
+    border: 1px solid #ccc;
+}
+
+.btn-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+
+.bank {
+    font-size: 25px;
+}
