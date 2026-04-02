@@ -3,6 +3,8 @@ import "./Financial.css"
 import { FaMoneyBills } from "react-icons/fa6";
 import { FaArrowUp } from "react-icons/fa6";
 import { LuShoppingCart } from "react-icons/lu";
+import { CiCircleCheck } from "react-icons/ci";
+import { CiBank } from "react-icons/ci";
 
 function Financial() {
   return (
@@ -14,19 +16,19 @@ function Financial() {
 
         <div className="totals-dash">
             <div className="box-dash">
-                <div className="name-box"><FaMoneyBills /> Total Income</div>
-                <div className="price-box">$15,000.00</div>
+                <div className="name-box"><div className="icon-total"><FaMoneyBills /> </div>Total Income</div>
+                <div className="price-box"><FaArrowUp />$15,000.00</div>
                 <div className="month-box"><FaArrowUp /> 12.5% vs last month</div>
             </div>
             <div className="box-dash">
-                <div className="name-box"><LuShoppingCart /> Total Expenses</div>
+                <div className="name-box"><div className="icon-total"><LuShoppingCart /></div> Total Expenses</div>
                 <div className="price-box">$8,500.00</div>
-                <div className="month-box"><FaArrowUp /> 12.5% vs last month</div>
+                <div className="month-box"><FaArrowUp /> 3.2% vs last month</div>
             </div>
             <div className="box-dash">
-                <div className="name-box"><FaMoneyBills /> Current Balance</div>
+                <div className="name-box"><div className="icon-total"><CiBank /></div> Current Balance</div>
                 <div className="price-box">$6,500.00</div>
-                <div className="month-box"><FaArrowUp /> 12.5% vs last month</div>
+                <div className="month-box"><CiCircleCheck /> 12.5% vs last month</div>
             </div>
         </div>
     </section>
