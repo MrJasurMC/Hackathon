@@ -1,0 +1,22 @@
+.dash{
+    width: 1024px;
+    height: 1023px;
+}
+.text-dash{
+    width: 960px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;   
+}
+.text-dash h1{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #0B1C30;
+}
+.text-dash p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3D4A3D;
+}
