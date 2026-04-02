@@ -17,7 +17,7 @@ function Financial() {
         <div className="totals-dash">
             <div className="box-dash">
                 <div className="name-box"><div className="icon-total"><FaMoneyBills /> </div>Total Income</div>
-                <div className="price-box"><FaArrowUp />$15,000.00</div>
+                <div className="price-box">$15,000.00</div>
                 <div className="month-box"><FaArrowUp /> 12.5% vs last month</div>
             </div>
             <div className="box-dash">
@@ -28,7 +28,7 @@ function Financial() {
             <div className="box-dash">
                 <div className="name-box"><div className="icon-total"><CiBank /></div> Current Balance</div>
                 <div className="price-box">$6,500.00</div>
-                <div className="month-box"><CiCircleCheck /> 12.5% vs last month</div>
+                <div className="month-box kok-box" ><CiCircleCheck /> 12.5% vs last month</div>
             </div>
         </div>
     </section>
