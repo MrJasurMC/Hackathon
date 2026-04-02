@@ -7,7 +7,10 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 // import css
 import './Transactions.css'
-
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { FaArrowTrendDown } from "react-icons/fa6";
+import { CiBank } from "react-icons/ci";
+import'./Transactions.css'
 function Transactions() {
     return (
         <div className='containers'>
