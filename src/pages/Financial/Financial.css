@@ -31,6 +31,7 @@
     height: 220px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .box-dash{
     width: 299px;
@@ -74,4 +75,56 @@ margin-right: 12px;
 }
 .kok-box{
     color: #005AC2;
+}
+
+.expenses-dash{
+    width: 960px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart-side{
+    width: 630px;
+    height: 380px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 32px;
+}
+.recent-side{
+    width: 298px;
+    height: 380px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.text-chart{
+    width: 565px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-icon-chart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.text-chart h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0B1C30;
+    line-height: 28px;
+}
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #006E2F;
+}
+.circle-2{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #B61722;
 }
