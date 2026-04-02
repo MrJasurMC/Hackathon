@@ -43,16 +43,41 @@ function Financial() {
               </div>
               </div>
               <div className="real-chart">
-                 <div className="jan"></div>
-                 <div className="feb"></div>
-                 <div className="mar"></div>
-                 <div className="apr"></div>
-                 <div className="may"></div>
-                 <div className="jun"></div>
+                 <div className="jan months">
+                    <div className="top-jan"></div>
+                    <div className="middle-jan"></div>
+                    <p>JAN</p>
+                 </div>
+                 <div className="feb months">
+                    <div className="top-feb"></div>
+                    <div className="middle-feb"></div>
+                    <p>FEB</p>
+                 </div>
+                 <div className="mar months">
+                    <div className="top-mar"></div>
+                    <div className="middle-mar"></div>
+                    <p>MAR</p>
+                 </div>
+                 <div className="apr months">
+                    <div className="top-apr"></div>
+                    <div className="middle-apr"></div>
+                    <p>APR</p>
+                 </div>
+                 <div className="may months">
+                    <div className="top-may"></div>
+                    <div className="middle-may"></div>
+                    <p>MAY</p>
+                 </div>
+                 <div className="jun months">
+                    <div className="top-jun"></div>
+                    <div className="middle-jun"></div>
+                    <p>JUN</p>
+
+                 </div>
               </div>
             </div>
             <div className="recent-side">
-
+               
             </div>
         </div>
     </section>
