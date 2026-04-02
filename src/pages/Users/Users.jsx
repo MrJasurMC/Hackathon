@@ -2,14 +2,10 @@ import React from 'react'
 
 function Users() {
   return (
-<<<<<<< HEAD
-    <div>
+    <section>
       
-    </div>
-=======
-    <div>Users</div>
->>>>>>> d92c220 (everything fixed)
-  )
+    </section>
+      )
 }
 
 export default Users

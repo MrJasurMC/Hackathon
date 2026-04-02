@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import "./Financial.css"
 import { FaMoneyBills } from "react-icons/fa6";
 import { FaArrowUp } from "react-icons/fa6";
@@ -35,13 +34,3 @@ function Financial() {
 }
 
 export default Financial
-=======
-
-function Financial() {
-  return (
-    <div>Financial</div>
-  )
-}
-
-export default Financial
->>>>>>> d92c220 (everything fixed)
