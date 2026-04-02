@@ -3,12 +3,18 @@
     height: 100vh;
     position: sticky;
     padding: 24px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .sidebar-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .sidebar-logo {
@@ -49,10 +55,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .sidebar-link {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     color: #64748B;
 }
