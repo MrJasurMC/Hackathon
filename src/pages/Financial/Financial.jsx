@@ -31,6 +31,30 @@ function Financial() {
                 <div className="month-box kok-box" ><CiCircleCheck /> 12.5% vs last month</div>
             </div>
         </div>
+        <div className="expenses-dash">
+            <div className="chart-side">
+              <div className="text-chart">
+              <h2>Income vs Expenses</h2>
+              <div className="text-icon-chart">
+                <div className="circle"></div>
+                <p>Income</p>
+                <div className="circle-2"></div>
+                <p>Expenses</p>
+              </div>
+              </div>
+              <div className="real-chart">
+                 <div className="jan"></div>
+                 <div className="feb"></div>
+                 <div className="mar"></div>
+                 <div className="apr"></div>
+                 <div className="may"></div>
+                 <div className="jun"></div>
+              </div>
+            </div>
+            <div className="recent-side">
+
+            </div>
+        </div>
     </section>
   )
 }
