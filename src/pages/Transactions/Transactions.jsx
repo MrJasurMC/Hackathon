@@ -1,11 +1,8 @@
 import React from 'react'
-// import icons
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaArrowTrendDown } from "react-icons/fa6";
 import { CiBank } from "react-icons/ci";
-// import css
-import './Transactions.css'
-
+import'./Transactions.css'
 function Transactions() {
     return (
         <div>
