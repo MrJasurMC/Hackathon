@@ -15,6 +15,11 @@ function App() {
         <Header />
         <Routes>
           <Route path='/transactions' element={<Transactions />} />
+
+          <Route path='/' element={<Financial />} />
+          <Route path='/' element={<Transactions />} />
+          <Route path='/' element={<Users />} />
+          <Route path='/transactions' element={<Transactions />} />
           <Route path='/Financial' element={<Financial />} />
           <Route path='/' element={<Transactions />} />
           <Route path='/Users' element={<Users />} />
