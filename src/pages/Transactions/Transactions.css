@@ -1,3 +1,7 @@
+.containers {
+    width: 1024px;
+}
+
 .header-three-box {
     display: flex;
     align-items: center;
@@ -67,4 +71,75 @@
 
 .bank {
     font-size: 25px;
+}
+
+.p-ledger {
+    display: flex;
+    text-transform: uppercase;
+    color: #006E2F;
+}
+
+.p-ledger>p {
+    color: #94A3B8;
+}
+
+.ledger-header-two {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.add {
+    width: 198.6px;
+    height: 48px;
+    background: #178543;
+    font-size: 18px;
+    color: #000;
+    margin-left: 780px;
+    border-radius: 12px;
+    margin-top: -50px;
+    border: none;
+}
+
+.alls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 632px;
+    margin-top: 40px;
+    height: 64px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 16px;
+}
+
+.all-btn {
+    font-family: 'Inter' sans-serif;
+    width: 156px;
+    height: 48px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+
+.all-btn:hover {
+    color: #006E2F;
+}
+
+.select {
+    width: 304px;
+    height: 64px;
+    box-shadow: #0000000D;
+    margin-top: 40px;
+}
+
+.big-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
 }
