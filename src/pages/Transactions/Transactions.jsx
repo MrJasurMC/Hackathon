@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 // import icons
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaArrowTrendDown } from "react-icons/fa6";
