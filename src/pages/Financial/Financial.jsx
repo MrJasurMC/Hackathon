@@ -77,6 +77,10 @@ function Financial() {
               </div>
             </div>
             <div className="recent-side">
+               <div className="recent-text">
+                <h2>Recent</h2>
+                <p>View All</p>
+               </div>
                
             </div>
         </div>

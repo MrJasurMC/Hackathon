@@ -206,7 +206,7 @@ margin-right: 12px;
 .top-jun{
     width: 85px;
     height: 144px;
-    background-color: #B61722CC;
+    background-color: #006E2FCC;
     border: 2px solid #006E2F;
 }
 .middle-jun{
@@ -214,4 +214,25 @@ margin-right: 12px;
     height: 80px;
     background-color: #B61722CC;
     border: 2px solid #006E2F;
+}
+.recent-side{
+    padding: 32px;
+}
+.recent-text{
+    width: 234px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recent-text h2{
+    font-size: 20px;
+    color: #0B1C30;
+    font-weight: 700;
+}
+.recent-text p{
+    font-size: 12px;
+    line-height: 16px;
+    color: #006E2F;
+    font-weight: 700;
 }
